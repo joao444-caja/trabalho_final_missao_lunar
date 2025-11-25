@@ -100,12 +100,7 @@ Segundo as orientações do professor:
   - como executar o projeto  
   - o que foi implementado como bônus
 
-## 📌 Como Rodar o Código
 
-Para acessar as instruções completas de execução do projeto, consulte o guia disponível na pasta como_rodar_o_codigo
-. Lá você encontrará todos os passos necessários para configurar e executar o código corretamente.
-
----
 
 ## 🛰 Resumo
 O trabalho “Viagem à Lua” exige o desenvolvimento de um sistema orientado a objetos, organizado em camadas, persistindo dados e validando regras específicas de missões lunares. A entrega deve ser documentada e versionada através de Git, com participação de todos os integrantes

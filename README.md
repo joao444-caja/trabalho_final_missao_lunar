@@ -98,7 +98,12 @@ Segundo as orientações do professor:
 - Todos os integrantes devem possuir *commits próprios*  
 - Devem existir arquivos .md explicando:
   - como executar o projeto  
-  - o que foi implementado como bônus  
+  - o que foi implementado como bônus
+
+## 📌 Como Rodar o Código
+
+Para acessar as instruções completas de execução do projeto, consulte o guia disponível na pasta como_rodar_o_codigo
+. Lá você encontrará todos os passos necessários para configurar e executar o código corretamente.
 
 ---
 

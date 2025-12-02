@@ -1,94 +1,63 @@
-# 🚀 Guia de Execução do Projeto – Missões Lunares
+# 📘 **README -- Como Executar o Projeto pelo CMD**
 
-Este arquivo contém apenas as instruções de execução.  
-Todos os comandos estão comentados para evitar execução acidental.
+Este guia explica passo a passo como rodar o projeto
+**Projeto_Missoes_Lunares** usando o **Maven** diretamente pelo **CMD
+(Prompt de Comando)**.
 
----
+------------------------------------------------------------------------
 
-## ✅ 1. Pré-requisitos
+## 🚀 **1. Abra o CMD na pasta do projeto**
 
-É necessário ter instalado:
+Entre na pasta raiz onde está o arquivo `pom.xml`:
 
-### ✔ Java 17 ou superior  
-Para verificar:
-```bash
-# java -version
+``` bash
+cd C:\Users\joaom\Downloads\trabalhos\Projeto_Missoes_Lunares
 ```
 
-### ✔ Maven  
-Para verificar:
-```bash
-# mvn -version
+------------------------------------------------------------------------
+
+## 🧹 **2. Limpar arquivos antigos**
+
+Remove arquivos compilados anteriormente:
+
+``` bash
+mvn clean
 ```
 
----
+------------------------------------------------------------------------
 
-## 📁 2. Abrir o projeto no CMD
+## 📦 **3. Instalar dependências e compilar tudo**
 
-Entre na pasta onde o projeto foi extraído.  
-Para abrir o CMD diretamente nela:
+Baixa as dependências (Nitrite, etc.) e compila o código:
 
-- Abra a pasta no Explorer  
-- Clique na barra de endereço  
-- Digite **cmd**  
-- Pressione ENTER
-
-Ou manualmente:
-```bash
-# cd C:\caminho\para\missoes_lunares_project
+``` bash
+mvn install
 ```
 
----
+------------------------------------------------------------------------
 
-## 🔧 3. Compilar o projeto
+## 🛠️ **4. Gerar o pacote JAR**
 
-Use o Maven para compilar:
+Cria o arquivo `.jar` dentro da pasta `target/`:
 
-```bash
-# mvn compile
+``` bash
+mvn package
 ```
 
----
+------------------------------------------------------------------------
 
-## ▶️ 4. Executar o projeto
+## ▶️ **5. Executar o programa**
 
-Executar com Maven:
+Roda o sistema de missões lunares com o menu interativo:
 
-```bash
-# mvn exec:java -Dexec.mainClass="br.unochapeco.missoes.view.Main"
+``` bash
+mvn exec:java
 ```
 
-Se o plugin exec não estiver instalado, use:
+------------------------------------------------------------------------
 
-```bash
-# mvn org.codehaus.mojo:exec-maven-plugin:3.1.0:java -Dexec.mainClass="br.unochapeco.missoes.view.Main"
-```
+## ✔️ **Pronto!**
 
----
+Se todos os comandos forem executados com sucesso, o menu principal do
+sistema abrirá no CMD.
 
-## 💡 5. Executar sem Maven (opção alternativa)
-
-Após compilar:
-
-```bash
-# java -cp target/classes br.unochapeco.missoes.view.Main
-```
-
----
-
-## 🎉 6. Resultado esperado
-
-Ao executar, você verá uma missão de teste sendo criada e listada:
-
-```
-Cadastro rápido de missão:
-[Missao M1 - Teste]
-```
-
-O arquivo `missoes.bin` será criado automaticamente, armazenando as missões.
-
----
-
-## ✔ Pronto!
-
-O programa já está completamente executável.

@@ -1,0 +1,10 @@
+br\unochapeco\missoes\model\Nave.class
+br\unochapeco\missoes\repository\NitriteRepository.class
+br\unochapeco\missoes\view\Main.class
+br\unochapeco\missoes\model\NaveCargueira.class
+br\unochapeco\missoes\repository\BinRepository.class
+br\unochapeco\missoes\model\Missao.class
+br\unochapeco\missoes\repository\MissaoRepository.class
+br\unochapeco\missoes\model\Astronauta.class
+br\unochapeco\missoes\model\NaveTripulada.class
+br\unochapeco\missoes\service\MissionService.class
